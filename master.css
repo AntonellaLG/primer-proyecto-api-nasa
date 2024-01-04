@@ -1,1 +1,27 @@
+body{
+    background-image: url("img/img-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#descripcion, #fecha, #titulo{
+    color: antiquewhite;
+}
+
+#c_multimedia{
+    box-sizing: border-box;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-radius: 7px;
+}
+
+
+/*Alternativa anterior
+body{
+    background: 
+        linear-gradient(
+            to right,
+            black, darkblue
+        );
+}*/
